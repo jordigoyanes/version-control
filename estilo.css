@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, geneva, serif ;
+  }
+
+header, footer{
+    background-color: beige;
+    height: 100px;
+}
+
+section{
+    height: 1000px;
+}
+
+.space{
+    margin: 0px auto;
+    width: 1100px;
+}
+
+.regalo{
+    border: 1px solid black;
+    float: left;
+}
+
+footer::before{
+    clear: both;
+}
