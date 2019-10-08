@@ -28,6 +28,7 @@ section{
 .regalo{
     border: 1px solid black;
     float: left;
+    margin: 20px 10px;
 }
 
 footer::before{
